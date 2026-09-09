@@ -1,4 +1,4 @@
-# 🗺️ QadamKadastr — Жер кадастрының автоматтандырылған ақпараттық жүйесі (ААЖ)
+## 🗺️ QadamKadastr — Жер кадастрының автоматтандырылған ақпараттық жүйесі (ААЖ)
 
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=black)](https://react.dev/)
 [![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?logo=leaflet&logoColor=white)](https://leafletjs.com/)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📑 Жоба талаптарының орындалуы (Assignment Checklist)
+### 📑 Жоба талаптарының орындалуы (Assignment Checklist)
 
 | № | Талап (Requirement) | Жүзеге асырылуы (Implementation) |
 |---|---|---|
@@ -23,7 +23,7 @@
 
 ---
 
-## 🏗️ Жүйе архитектурасы (System Architecture)
+### 🏗️ Жүйе архитектурасы (System Architecture)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -49,7 +49,7 @@
 
 ---
 
-## ✨ Негізгі мүмкіндіктер (Key Features)
+### ✨ Негізгі мүмкіндіктер (Key Features)
 
 - **🛰️ Интерактивті ГАЖ/GIS Карта:** OpenStreetMap және Leaflet арқылы WGS84 координаттық полигондарын көрсету.
 - **💬 In-Map Speech-Bubble Popups:** Учаскені картадан басқанда тікелей полигон үстінен ашылатын ресми модальді терезе.
@@ -62,7 +62,7 @@
 
 ---
 
-## 📁 Жоба құрылымы (Project Structure)
+### 📁 Жоба құрылымы (Project Structure)
 
 ```text
 QadamKadastr/
@@ -101,14 +101,14 @@ QadamKadastr/
 
 ---
 
-## 🚀 Жергілікті іске қосу (Local Setup)
+### 🚀 Жергілікті іске қосу (Local Setup)
 
-### 1. Талаптар:
+#### 1. Талаптар:
 - **Node.js:** v18+ 
 - **Go:** v1.22+
 - **Neon PostgreSQL:** Белсенді дерекқор аккаунты
 
-### 2. Бэкендті іске қосу:
+#### 2. Бэкендті іске қосу:
 ```bash
 cd backend
 
@@ -120,7 +120,7 @@ go run main.go
 ```
 *Сервер `http://localhost:8080` мекенжайында ашылады.*
 
-### 3. Фронтендті іске қосу:
+#### 3. Фронтендті іске қосу:
 ```bash
 cd frontend
 
@@ -134,15 +134,15 @@ npm run dev
 
 ---
 
-## 🌐 Бұлтқа орналастыру (Cloud Deployment)
+### 🌐 Бұлтқа орналастыру (Cloud Deployment)
 
-### 1. Бэкенд (Render + Docker):
+#### 1. Бэкенд (Render + Docker):
 1. [Render.com](https://render.com) платформасында жаңа **Web Service** құрыңыз.
 2. Түбірлік қалта ретінде **`backend`** көрсетіңіз.
 3. Ортасы ретінде **Docker** таңдаңыз.
 4. **Environment Variables** бөліміне Neon деректерін қосыңыз (`PGHOST`, `PGUSER`, `PGPASSWORD`, `PGDATABASE`, `PGSSLMODE=require`).
 
-### 2. Фронтенд (Vercel):
+#### 2. Фронтенд (Vercel):
 1. [Vercel.com](https://vercel.com) платформасында репозиторийді импорттаңыз.
 2. Түбірлік қалта ретінде **`frontend`** таңдаңыз.
 3. Орта айнымалысын қосыңыз:
@@ -151,6 +151,6 @@ npm run dev
 
 ---
 
-## 📄 Лицензия
+### 📄 Лицензия
 
 Бұл жоба [MIT](LICENSE) лицензиясы бойынша қолжетімді.
